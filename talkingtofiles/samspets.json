@@ -1,0 +1,13 @@
+{
+    "cats": [
+        "fluffy",
+        "snowball",
+        "garfield"
+    ],
+    "dogs": [
+        "mudge",
+        "spot",
+        "fido"
+    ],
+    "fish": null
+}
