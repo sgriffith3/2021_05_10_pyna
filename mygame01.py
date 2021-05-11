@@ -46,7 +46,8 @@ rooms = {
                   'items'  : ['monster'],
                 },
             'Dining Room' : {
-                  'west' : 'Hall'
+                  'west' : 'Hall',
+                  'items': ['cookie'],
              }
           }
 
@@ -97,6 +98,11 @@ while True:
             print('Can\'t get ' + move[1] + '!')
     ## If a player enters a room with a monster
     if 'items' in rooms[currentRoom] and 'monster' in rooms[currentRoom]['items']:
-        print('A monster has got you... GAME OVER!')
-        break
+        print("A wild cookie-monster appears!\nDid you bring a cookie?")
+        if "cookie" in inventory:
+            print("A chocolate chip cookie just saved your life!")
+            inventory.remove('cookie')
+        else:
+            print('A monster has got you... GAME OVER!')
+            break
 
