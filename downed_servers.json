@@ -1,0 +1,14 @@
+[
+    {
+        "state": "down",
+        "server": "002"
+    },
+    {
+        "state": "down",
+        "server": "005"
+    },
+    {
+        "state": "down",
+        "server": "007"
+    }
+]
