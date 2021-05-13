@@ -1,0 +1,11 @@
+---
+- get_facts:
+    os_version: 4.22 #the actual version is much longer than  this, so this will result in a "False"
+- ping:
+    _name: ping_google
+    _kwargs:
+      destination: 8.8.8.8
+      source: 10.7.76.189
+    success:
+      packet_loss: 0
+    _mode: strict
