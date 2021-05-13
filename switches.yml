@@ -1,0 +1,14 @@
+- name: sw-1
+  user: admin
+  passw: alta3
+  os: eos
+  comp_files: 
+  - /home/student/pyna/sw1_validate.yml
+
+- name: sw-2
+  user: admin
+  passw: alta3
+  os: eos
+  comp_files: 
+  - /home/student/pyna/sw2_validate.yml
+  - /home/student/pyna/sw1_validate.yml
