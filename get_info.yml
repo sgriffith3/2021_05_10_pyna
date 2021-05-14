@@ -1,0 +1,11 @@
+- name: Our First Playbook
+  hosts: pexpress
+  tasks:
+  # Print out Hello World
+  - name: Hello World Example
+    debug:
+      msg: Hello World!
+  - name: Hello World Example pt 2
+    debug:
+      msg: The final countdown
+
